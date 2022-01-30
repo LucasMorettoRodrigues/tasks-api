@@ -6,8 +6,9 @@ require('dotenv').config()
 
 const port = 3000
 
-app.use('/api/v1/tasks', tasks)
 app.use(express.json())
+app.use('/api/v1/tasks', tasks)
+
 
 const start = async() => {
     try {
