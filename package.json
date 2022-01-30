@@ -1,0 +1,27 @@
+{
+  "name": "tasks-api",
+  "version": "1.0.0",
+  "description": "A Rest API build with Nodejs and mongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasMorettoRodrigues/tasks-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasMorettoRodrigues/tasks-api/issues"
+  },
+  "homepage": "https://github.com/LucasMorettoRodrigues/tasks-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  }
+}
